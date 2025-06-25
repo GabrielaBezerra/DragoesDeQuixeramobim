@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Missão 1
+// Missão 1 (testar pelo menos 60%)
 class Player {
     var mainSkill: Skill?
     var height: Height?
@@ -22,7 +22,7 @@ class Player {
         case 1:
             if actions.contains(.makePeace) {
                 pages += 1
-                if mainSkill == .Charism {
+                if mainSkill == .Charisma {
                     pages += 1
                 }
             }

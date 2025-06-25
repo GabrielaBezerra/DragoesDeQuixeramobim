@@ -7,13 +7,14 @@
 
 import Foundation
 
-// Missão 3 
+// Missão 2 (testar 80%)
 class StoryPageManager: StoryPageManagerProtocol {
 
     weak var playerDelegate: PlayerDelegate? = nil
 
     var page: StoryPage
     
+    // Dica: 💉
     required init(page: StoryPage, delegate: PlayerDelegate) {
         self.page = page
         self.playerDelegate = delegate

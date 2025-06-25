@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "7F6CDC8C-2155-468D-A6FA-40D2B3DA5B37",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DragonsOfQuixeramobim.xcodeproj",
+      "identifier" : "06E46F9328B5C2BA00163278",
+      "name" : "DragonsOfQuixeramobim"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DragonsOfQuixeramobim.xcodeproj",
+        "identifier" : "06E46FA928B5C2BE00163278",
+        "name" : "DragonsOfQuixeramobimTests"
+      }
+    }
+  ],
+  "version" : 1
+}

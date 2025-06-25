@@ -14,9 +14,6 @@
 		06E46F9C28B5C2BA00163278 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46F9B28B5C2BA00163278 /* StoryViewController.swift */; };
 		06E46FA128B5C2BD00163278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E46FA028B5C2BD00163278 /* Assets.xcassets */; };
 		06E46FA428B5C2BD00163278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E46FA228B5C2BD00163278 /* LaunchScreen.storyboard */; };
-		06E46FAF28B5C2BE00163278 /* DragonsOfQuixeramobimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FAE28B5C2BE00163278 /* DragonsOfQuixeramobimTests.swift */; };
-		06E46FB928B5C2BE00163278 /* DragonsOfQuixeramobimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FB828B5C2BE00163278 /* DragonsOfQuixeramobimUITests.swift */; };
-		06E46FBB28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FBA28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift */; };
 		06E46FC828B5C42A00163278 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FC728B5C42A00163278 /* StoryView.swift */; };
 		06E46FCA28B5C48700163278 /* ChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FC928B5C48700163278 /* ChoiceCell.swift */; };
 		06E46FCC28B5C52000163278 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FCB28B5C52000163278 /* Story.swift */; };
@@ -32,17 +29,11 @@
 		06E46FE028B5E46700163278 /* StoryViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FDF28B5E46700163278 /* StoryViewModelDelegate.swift */; };
 		06E46FE228B5E47F00163278 /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FE128B5E47F00163278 /* StoryViewModel.swift */; };
 		06E46FED28B5EC6D00163278 /* StoryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FEC28B5EC6D00163278 /* StoryViewDelegate.swift */; };
+		4345C4D82DDD3C09007F0A5B /* PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345C4D72DDD3C09007F0A5B /* PlayerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		06E46FAB28B5C2BE00163278 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06E46F8C28B5C2BA00163278 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06E46F9328B5C2BA00163278;
-			remoteInfo = DragonsOfQuixeramobim;
-		};
-		06E46FB528B5C2BE00163278 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 06E46F8C28B5C2BA00163278 /* Project object */;
 			proxyType = 1;
@@ -62,10 +53,6 @@
 		06E46FA328B5C2BD00163278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06E46FA528B5C2BD00163278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06E46FAA28B5C2BE00163278 /* DragonsOfQuixeramobimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonsOfQuixeramobimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06E46FAE28B5C2BE00163278 /* DragonsOfQuixeramobimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsOfQuixeramobimTests.swift; sourceTree = "<group>"; };
-		06E46FB428B5C2BE00163278 /* DragonsOfQuixeramobimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonsOfQuixeramobimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06E46FB828B5C2BE00163278 /* DragonsOfQuixeramobimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsOfQuixeramobimUITests.swift; sourceTree = "<group>"; };
-		06E46FBA28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsOfQuixeramobimUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		06E46FC728B5C42A00163278 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		06E46FC928B5C48700163278 /* ChoiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceCell.swift; sourceTree = "<group>"; };
 		06E46FCB28B5C52000163278 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
@@ -81,6 +68,8 @@
 		06E46FDF28B5E46700163278 /* StoryViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModelDelegate.swift; sourceTree = "<group>"; };
 		06E46FE128B5E47F00163278 /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
 		06E46FEC28B5EC6D00163278 /* StoryViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewDelegate.swift; sourceTree = "<group>"; };
+		4345C4D72DDD3C09007F0A5B /* PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTests.swift; sourceTree = "<group>"; };
+		4345C4D92DDD4122007F0A5B /* DragonsOfQuixeramobim.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = DragonsOfQuixeramobim.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,13 +81,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		06E46FA728B5C2BE00163278 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06E46FB128B5C2BE00163278 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,9 +121,9 @@
 		06E46F8B28B5C2BA00163278 = {
 			isa = PBXGroup;
 			children = (
+				4345C4D92DDD4122007F0A5B /* DragonsOfQuixeramobim.xctestplan */,
 				06E46F9628B5C2BA00163278 /* DragonsOfQuixeramobim */,
 				06E46FAD28B5C2BE00163278 /* DragonsOfQuixeramobimTests */,
-				06E46FB728B5C2BE00163278 /* DragonsOfQuixeramobimUITests */,
 				06E46F9528B5C2BA00163278 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,7 +133,6 @@
 			children = (
 				06E46F9428B5C2BA00163278 /* DragonsOfQuixeramobim.app */,
 				06E46FAA28B5C2BE00163278 /* DragonsOfQuixeramobimTests.xctest */,
-				06E46FB428B5C2BE00163278 /* DragonsOfQuixeramobimUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,18 +157,9 @@
 		06E46FAD28B5C2BE00163278 /* DragonsOfQuixeramobimTests */ = {
 			isa = PBXGroup;
 			children = (
-				06E46FAE28B5C2BE00163278 /* DragonsOfQuixeramobimTests.swift */,
+				4345C4D72DDD3C09007F0A5B /* PlayerTests.swift */,
 			);
 			path = DragonsOfQuixeramobimTests;
-			sourceTree = "<group>";
-		};
-		06E46FB728B5C2BE00163278 /* DragonsOfQuixeramobimUITests */ = {
-			isa = PBXGroup;
-			children = (
-				06E46FB828B5C2BE00163278 /* DragonsOfQuixeramobimUITests.swift */,
-				06E46FBA28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift */,
-			);
-			path = DragonsOfQuixeramobimUITests;
 			sourceTree = "<group>";
 		};
 		06E46FE328B5E49800163278 /* Decodable */ = {
@@ -309,24 +281,6 @@
 			productReference = 06E46FAA28B5C2BE00163278 /* DragonsOfQuixeramobimTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06E46FB328B5C2BE00163278 /* DragonsOfQuixeramobimUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 06E46FC428B5C2BE00163278 /* Build configuration list for PBXNativeTarget "DragonsOfQuixeramobimUITests" */;
-			buildPhases = (
-				06E46FB028B5C2BE00163278 /* Sources */,
-				06E46FB128B5C2BE00163278 /* Frameworks */,
-				06E46FB228B5C2BE00163278 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				06E46FB628B5C2BE00163278 /* PBXTargetDependency */,
-			);
-			name = DragonsOfQuixeramobimUITests;
-			productName = DragonsOfQuixeramobimUITests;
-			productReference = 06E46FB428B5C2BE00163278 /* DragonsOfQuixeramobimUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -335,17 +289,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					06E46F9328B5C2BA00163278 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					06E46FA928B5C2BE00163278 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 06E46F9328B5C2BA00163278;
-					};
-					06E46FB328B5C2BE00163278 = {
-						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1610;
 						TestTargetID = 06E46F9328B5C2BA00163278;
 					};
 				};
@@ -365,7 +316,6 @@
 			targets = (
 				06E46F9328B5C2BA00163278 /* DragonsOfQuixeramobim */,
 				06E46FA928B5C2BE00163278 /* DragonsOfQuixeramobimTests */,
-				06E46FB328B5C2BE00163278 /* DragonsOfQuixeramobimUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -382,13 +332,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		06E46FA828B5C2BE00163278 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06E46FB228B5C2BE00163278 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,16 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E46FAF28B5C2BE00163278 /* DragonsOfQuixeramobimTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06E46FB028B5C2BE00163278 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06E46FB928B5C2BE00163278 /* DragonsOfQuixeramobimUITests.swift in Sources */,
-				06E46FBB28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift in Sources */,
+				4345C4D82DDD3C09007F0A5B /* PlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,11 +382,6 @@
 			isa = PBXTargetDependency;
 			target = 06E46F9328B5C2BA00163278 /* DragonsOfQuixeramobim */;
 			targetProxy = 06E46FAB28B5C2BE00163278 /* PBXContainerItemProxy */;
-		};
-		06E46FB628B5C2BE00163278 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 06E46F9328B5C2BA00163278 /* DragonsOfQuixeramobim */;
-			targetProxy = 06E46FB528B5C2BE00163278 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,6 +434,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -566,6 +496,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -609,7 +540,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sharkberry.DragonsOfQuixeramobim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -639,7 +570,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sharkberry.DragonsOfQuixeramobim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -647,18 +578,19 @@
 		06E46FC228B5C2BE00163278 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 526YR6WHWC;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sharkberry.DragonsOfQuixeramobimTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonsOfQuixeramobim.app/DragonsOfQuixeramobim";
 			};
@@ -667,56 +599,20 @@
 		06E46FC328B5C2BE00163278 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 526YR6WHWC;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sharkberry.DragonsOfQuixeramobimTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonsOfQuixeramobim.app/DragonsOfQuixeramobim";
-			};
-			name = Release;
-		};
-		06E46FC528B5C2BE00163278 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 526YR6WHWC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sharkberry.DragonsOfQuixeramobimUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DragonsOfQuixeramobim;
-			};
-			name = Debug;
-		};
-		06E46FC628B5C2BE00163278 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 526YR6WHWC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sharkberry.DragonsOfQuixeramobimUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DragonsOfQuixeramobim;
 			};
 			name = Release;
 		};
@@ -746,15 +642,6 @@
 			buildConfigurations = (
 				06E46FC228B5C2BE00163278 /* Debug */,
 				06E46FC328B5C2BE00163278 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		06E46FC428B5C2BE00163278 /* Build configuration list for PBXNativeTarget "DragonsOfQuixeramobimUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				06E46FC528B5C2BE00163278 /* Debug */,
-				06E46FC628B5C2BE00163278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

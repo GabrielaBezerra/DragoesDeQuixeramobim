@@ -29,7 +29,7 @@ class StoryViewController: UIViewController {
     
 }
 
-extension StoryViewController: StoryViewModelDelegate {
+extension StoryViewController: @preconcurrency StoryViewModelDelegate {
 
     func load(text: String, choices: [Choice]) {
         self.storyView.label.text = text
@@ -38,7 +38,7 @@ extension StoryViewController: StoryViewModelDelegate {
 
 }
 
-extension StoryViewController: StoryViewDelegate {
+extension StoryViewController: @preconcurrency StoryViewDelegate {
 
     func select(_ choice: Choice) {
         viewModel.select(choice: choice)

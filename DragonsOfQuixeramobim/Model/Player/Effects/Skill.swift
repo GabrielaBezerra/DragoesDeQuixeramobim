@@ -10,6 +10,6 @@ import Foundation
 enum Skill: Int {
     case Magic
     case Force
-    case Charism
+    case Charisma
     case Inventor
 }

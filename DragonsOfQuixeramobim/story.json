@@ -120,7 +120,7 @@
         ]
     },
     {
-        "text": "Chico respondeu\n- Dêxe de ser fuleragi home, eu vendi ovo de avestruz coisa nenhuma! São de dragão!",
+        "text": "Chico respondeu\n- Dêxe de ser fuleragi home, eu vendi ovo de avestruz coisa nenhuma! É de dragão!",
         "choices": [
             {
                 "text": "(Vixe...)",
@@ -128,7 +128,7 @@
         ]
     },
     {
-        "text": "Toin, furioso, insistiu\n- SEU CABRA MENTIROSO, FUI ENGANADO, ME DEVOLVA MEUS GALEÕES!",
+        "text": "Toin, furioso, insistiu\n- SEU CABRA MENTIROSO, FUI ENGANADO, ME DEVOLVA MEU DINHEIRO!",
         "choices": [
             {
                 "text": "(Acho que vai ter briga...)",
@@ -184,7 +184,7 @@
         ]
     },
     {
-        "text": "Você interviu na briga, com calma e uma boa oratória, você convence os dois a deixarem a desavença para lá, conta uma história que faz todos rir e ainda ganha bebida de graça por ter resolvido a situação. Você fez amigos, como você queria.",
+        "text": "Você interviu na briga, com calma e uma boa oratória, você convence os dois a deixarem a desavença para lá, conta uma história que faz todos rirem e ainda ganha bebida de graça por ter resolvido a situação. Você fez amigos, como você queria.",
         "choices": [
             {
                 "text": "FIM",
